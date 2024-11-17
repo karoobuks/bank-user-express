@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1731331081524,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "password": "securepassword123",
+    "account": {
+      "balance": 40000
+    }
+  },
+  {
+    "id": 1731331442343,
+    "firstName": "karo",
+    "lastName": "emmanuel",
+    "email": "karoobuks@gmail.com",
+    "password": "karo24",
+    "account": {
+      "balance": 49500
+    }
+  }
+]
