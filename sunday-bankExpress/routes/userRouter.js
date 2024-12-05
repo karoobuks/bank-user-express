@@ -8,11 +8,11 @@ const router = express.Router();
 
 router.route('/')
     .get(userController.getAllUsers)
-    .post(userController.createOrUpdateUser)
+    .post(userController.create)
 
 router.route('/:id')
     .get(userController.getUserById)
-    .put(userController.createOrUpdateUser)
+    .put(userController.updateUser)
     .delete(userController.deleteUser)
 
 module.exports = router;
